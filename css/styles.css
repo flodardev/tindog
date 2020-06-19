@@ -1,0 +1,161 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+#title .navbar {
+  padding: 0 0 4.5rem;
+}
+#title .navbar .navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#title .navbar .nav-links {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+#title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+#title .download-button {
+  margin: 5% 3% 5% 0;
+}
+#title .title-image {
+  transform: rotate(25deg);
+  width: 65%;
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+  padding: 7% 15%;
+}
+#features .col {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+#features .col .fas {
+  color: #ef8172;
+  margin: auto auto 1rem auto;
+}
+#features .col .fas:hover {
+  color: #ff4c68;
+}
+#features .col h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#features .col p {
+  color: #8f8f8f;
+  width: 70%;
+  margin: auto;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+#testimonials h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#testimonials .carousel-item {
+  padding: 7% 15%;
+}
+#testimonials .testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+#pricing {
+  text-align: center;
+  padding: 50px;
+}
+#pricing .pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+#cta .container-fluid {
+  padding: 5rem 15rem 10rem 15rem;
+}
+#cta .container-fluid h3 {
+  font-size: 50px;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 75px;
+}
+#cta .container-fluid .download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+#footer .container-fluid {
+  padding-top: 120px;
+}
+#footer .container-fluid i {
+  padding: 0 10px;
+}
+#footer .container-fluid p {
+  color: #8f8f8f;
+}
+#footer .container-fluid a {
+  color: black;
+}
+#footer .container-fluid a:hover {
+  color: #ff4c68;
+}
+
+@media (max-width: 1024px) {
+  #title {
+    text-align: center;
+  }
+  #title h1 {
+    font-size: 2rem;
+  }
+  #title .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #cta .container-fluid {
+    padding: 5rem 0rem 5rem 0rem;
+  }
+
+  #footer .container-fluid {
+    padding-top: 20px;
+  }
+}
